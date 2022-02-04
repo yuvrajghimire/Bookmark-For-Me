@@ -1,0 +1,191 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 130px;
+  padding: 0;
+  width: 384px;
+  background-color: #31525b;
+  color: #fff;
+}
+.bmtext {
+  margin: 3% 0 0 11%;
+}
+i{
+  font-family: FontAwesome;
+}
+.logo {
+  position: absolute;
+  width: 54px;
+  margin: 2% 0 0 0;
+  height: 100px;
+}
+.logo img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+ul.list {
+  line-height: 19px;
+}
+.addbm{
+  cursor: pointer;
+  transition: 0.3s;
+}
+.addbm i {
+  cursor: pointer;
+  padding: 5% 3%;
+}
+.bm-list {
+  text-decoration: none;
+  color: #fff;
+}
+.list {
+  color: rgb(192, 186, 186);
+  padding: 0 0 0 1%;
+}
+.bm-list:hover {
+  color: rgb(192, 186, 186);
+}
+.fa-chrome {
+  color: #b0cee6;
+}
+.addbmfirst {
+  cursor: pointer;
+  position: absolute;
+  left: 62%;
+  width: 100%;
+  padding-left: 0;
+  margin-left: 4%;
+}
+.search {
+  border-radius: 5px;
+  border: 2px solid grey;
+  display: none;
+  padding: 2% 0 2% 5%;
+}
+.fa-search {
+  right: 37%;
+  position: absolute;
+  top: 10%;
+  cursor: pointer;
+}
+.searchdiv {
+  position: absolute;
+  top: 5%;
+  left: 64%;
+  width: 36%;
+  padding: 0;
+}
+.thumbtag {
+  top: 6%;
+  position: absolute;
+  right: 9%;
+  font-size: 1.8em;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #809ba3;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #84aab6;
+  border-radius: 10px;
+}
+.fa-thumb-tack {
+  color: #b9ccdd;
+}
+i.fa-ellipsis-v {
+    right: 6%;
+    position: absolute;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: rgb(192, 186, 186);
+}
+li{
+  position: relative;
+}
+.popup {
+  position: absolute;
+  border-radius: 0.3em;
+  padding: 0%;
+  right: 0;
+  bottom: 50%;
+  font-size: 1.4em;
+}
+.edit,.delete{
+  cursor: pointer;
+}
+.edit {
+  color: #39a839;
+}
+.delete {
+  color: #f05b5b;
+}
+.fadeIn{
+  animation: fadein 3s ease;
+}
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.liclass {
+  width: 83%;
+}
+input.inputcls {
+  width: 93%;
+  padding: 2% 2% 2% 2%;
+}
+i.fa.fa-check {
+  font-size: 1.4em;
+  color: #12bc12;
+  cursor: pointer;
+}
+img.faviconimg {
+  width: 6%;
+}
+.offlinechrome {
+  padding: 1% 1% 1% 1%;
+  margin-right: 1%;
+}
+.container.sticky {
+  position: sticky;
+  width: 100%;
+  height: 11%;
+  bottom: 0%;
+  right: 0;
+  background: #344447;
+  color: #fff;
+  transition: 0.3s;
+}
+.sticky:hover{
+  background: #2e3c3f;
+}
+.nonsticky{
+  max-height: 100%;
+}
+.searchanimation{
+  animation: searchani 0.5s forwards;
+}
+@keyframes searchani{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
+}

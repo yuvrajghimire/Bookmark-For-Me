@@ -1,0 +1,12 @@
+{
+    "name": "Bookmark For Me",
+    "description": "Bookmark your favorite site and quickly view it!",
+    "version": "0.3",
+    "manifest_version": 3,
+    "icons" : { "128": "icon_128.png" },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+      },
+      "permissions": ["tabs"]
+  }
